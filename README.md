@@ -5,51 +5,51 @@ This folder contains independent technical scans (Report A, Report B) and a cons
 
 ## Canonical (English)
 - Report A — Technical assessment + product implementation recommendations  
-  - [TechnicalAssessmentProductPositioningImplementationRecommendationsReport_A_en.md](./TechnicalAssessmentProductPositioningImplementationRecommendationsReport_A_en.md) (EN)
+  - [TechnicalAssessmentProductPositioningImplementationRecommendationsReport_A_en.md](./EN/TechnicalAssessmentProductPositioningImplementationRecommendationsReport_A_en.md) (EN)
 - Report B — Independent technical insights  
-  - [TechnicalAssessmentProductPositioningImplementationRecommendationsReport_B_en.md](./TechnicalAssessmentProductPositioningImplementationRecommendationsReport_B_en.md) (EN)
+  - [TechnicalAssessmentProductPositioningImplementationRecommendationsReport_B_en.md](./EN/TechnicalAssessmentProductPositioningImplementationRecommendationsReport_B_en.md) (EN)
 - Consolidated — Comprehensive strategy & implementation recommendations  
-  - [ChainwebPactSPVComprehensiveStrategyAssessmentandImplementationRecommendationsReport_en.md](./ChainwebPactSPVComprehensiveStrategyAssessmentandImplementationRecommendationsReport_en.md) (EN)
+  - [ChainwebPactSPVComprehensiveStrategyAssessmentandImplementationRecommendationsReport_en.md](./EN/ChainwebPactSPVComprehensiveStrategyAssessmentandImplementationRecommendationsReport_en.md) (EN)
 
 Language variants — examples (filenames show language suffix or native title)
 
 - Chinese (zh_sc / zh_tc)
-  - [ChainwebPactSPV综合战略评估与落地建议报告_zh_sc.md](./ChainwebPactSPV综合战略评估与落地建议报告_zh_sc.md) (Consolidated — ZH-SC)
-  - [技术评估与产品落地建议独立报告_A_zh_sc.md](./技术评估与产品落地建议独立报告_A_zh_sc.md) (Report A — ZH-SC)
-  - [技术评估与产品落地建议独立报告_B_zh_sc.md](./技术评估与产品落地建议独立报告_B_zh_sc.md) (Report B — ZH-SC)
-  - [ChainwebPactSPV綜合戰略評估與落地建議報告_zh_tc.md](./ChainwebPactSPV綜合戰略評估與落地建議報告_zh_tc.md) (Consolidated — ZH-TC)
-  - [技術評估與產品落地建議獨立報告_A_zh_tc.md](./技術評估與產品落地建議獨立報告_A_zh_tc.md) (Report A — ZH-TC)
-  - [技術評估與產品落地建議獨立報告_B_zh_tc.md](./技術評估與產品落地建議獨立報告_B_zh_tc.md) (Report B — ZH-TC)
+  - [ChainwebPactSPV综合战略评估与落地建议报告_zh_sc.md](./ZH/ChainwebPactSPV综合战略评估与落地建议报告_zh_sc.md) (Consolidated — ZH-SC)
+  - [技术评估与产品落地建议独立报告_A_zh_sc.md](./ZH/技术评估与产品落地建议独立报告_A_zh_sc.md) (Report A — ZH-SC)
+  - [技术评估与产品落地建议独立报告_B_zh_sc.md](./ZH/技术评估与产品落地建议独立报告_B_zh_sc.md) (Report B — ZH-SC)
+  - [ChainwebPactSPV綜合戰略評估與落地建議報告_zh_tc.md](./ZH/ChainwebPactSPV綜合戰略評估與落地建議報告_zh_tc.md) (Consolidated — ZH-TC)
+  - [技術評估與產品落地建議獨立報告_A_zh_tc.md](./ZH/技術評估與產品落地建議獨立報告_A_zh_tc.md) (Report A — ZH-TC)
+  - [技術評估與產品落地建議獨立報告_B_zh_tc.md](./ZH/技術評估與產品落地建議獨立報告_B_zh_tc.md) (Report B — ZH-TC)
 
 - Korean (ko)
-  - [기술 평가 및 제품 실행 권고 보고서_A_ko.md](./기술%20평가%20및%20제품%20실행%20권고%20보고서_A_ko.md) (Report A — KO)
-  - [기술 평가 보고서_B_ko.md](./기술%20평가%20및%20제품%20실행%20권고%20보고서_B_ko.md) (Report B — KO)
-  - [ChainwebPactSPV_종합전략평가_권고_ko.md](./ChainwebPactSPV_종합전략평가_권고_ko.md) (Consolidated — KO)
+  - [기술 평가 및 제품 실행 권고 보고서_A_ko.md](./KO/기술%20평가%20및%20제품%20실행%20권고%20보고서_A_ko.md) (Report A — KO)
+  - [기술 평가 보고서_B_ko.md](./KO/기술%20평가%20및%20제품%20실행%20권고%20보고서_B_ko.md) (Report B — KO)
+  - [ChainwebPactSPV_종합전략평가_권고_ko.md](./KO/ChainwebPactSPV_종합전략평가_권고_ko.md) (Consolidated — KO)
 
 - Japanese (jp)
-  - [ChainwebPactSPV総合戦略評価と実装提言レポート_jp.md](./ChainwebPactSPV総合戦略評価と実装提言レポート_jp.md) (Consolidated — JP)
-  - [技術評価とプロダクト実装提言レポート_A_jp.md](./技術評価とプロダクト実装提言レポート_A_jp.md) (Report A — JP)
-  - [技術評価とプロダクト実装提言レポート_B_jp.md](./技術評価とプロダクト実装提言レポート_B_jp.md) (Report B — JP)
+  - [ChainwebPactSPV総合戦略評価と実装提言レポート_jp.md](./JP/ChainwebPactSPV総合戦略評価と実装提言レポート_jp.md) (Consolidated — JP)
+  - [技術評価とプロダクト実装提言レポート_A_jp.md](./JP/技術評価とプロダクト実装提言レポート_A_jp.md) (Report A — JP)
+  - [技術評価とプロダクト実装提言レポート_B_jp.md](./JP/技術評価とプロダクト実装提言レポート_B_jp.md) (Report B — JP)
 
 - Spanish (es)
-  - [TecnicaEvaluacion_Producto_A_es.md](./TecnicaEvaluacion_Producto_A_es.md) (Report A — ES)
-  - [TecnicaEvaluacion_Reporte_PerspectivasIndependientes_B_es.md](./TecnicaEvaluacion_Reporte_PerspectivasIndependientes_B_es.md) (Report B — ES)
-  - [ChainwebPactSPV_EstrategiaEvaluacionYRecomendaciones_es.md](./ChainwebPactSPV_EstrategiaEvaluacionYRecomendaciones_es.md) (Consolidated — ES)
+  - [TecnicaEvaluacion_Producto_A_es.md](./ES/TecnicaEvaluacion_Producto_A_es.md) (Report A — ES)
+  - [TecnicaEvaluacion_Reporte_PerspectivasIndependientes_B_es.md](./ES/TecnicaEvaluacion_Reporte_PerspectivasIndependientes_B_es.md) (Report B — ES)
+  - [ChainwebPactSPV_EstrategiaEvaluacionYRecomendaciones_es.md](./ES/ChainwebPactSPV_EstrategiaEvaluacionYRecomendaciones_es.md) (Consolidated — ES)
 
 - German (de)
-  - [TechnischeBewertung_ProduktUmsetzung_A_de.md](./TechnischeBewertung_ProduktUmsetzung_A_de.md) (Report A — DE)
-  - [TechnischeBewertung_Rapport_UnabhaengigeEinschaetzung_B_de.md](./TechnischeBewertung_Rapport_UnabhaengigeEinschaetzung_B_de.md) (Report B — DE)
-  - [ChainwebPactSPV_StrategischeBewertungUndUmsetzungsempfehlungen_de.md](./ChainwebPactSPV_StrategischeBewertungUndUmsetzungsempfehlungen_de.md) (Consolidated — DE)
+  - [TechnischeBewertung_ProduktUmsetzung_A_de.md](./DE/TechnischeBewertung_ProduktUmsetzung_A_de.md) (Report A — DE)
+  - [TechnischeBewertung_Rapport_UnabhaengigeEinschaetzung_B_de.md](./DE/TechnischeBewertung_Rapport_UnabhaengigeEinschaetzung_B_de.md) (Report B — DE)
+  - [ChainwebPactSPV_StrategischeBewertungUndUmsetzungsempfehlungen_de.md](./DE/ChainwebPactSPV_StrategischeBewertungUndUmsetzungsempfehlungen_de.md) (Consolidated — DE)
 
 - French (fr)
-  - [EvaluationTechnique_Produit_A_fr.md](./EvaluationTechnique_Produit_A_fr.md) (Report A — FR)
-  - [EvaluationTechnique_Rapport_PerspectivesIndependantes_B_fr.md](./EvaluationTechnique_Rapport_PerspectivesIndependantes_B_fr.md) (Report B — FR)
-  - [ChainwebPactSPV_EvaluationStrategiqueEtRecommandations_fr.md](./ChainwebPactSPV_EvaluationStrategiqueEtRecommandations_fr.md) (Consolidated — FR)
+  - [EvaluationTechnique_Produit_A_fr.md](./FR/EvaluationTechnique_Produit_A_fr.md) (Report A — FR)
+  - [EvaluationTechnique_Rapport_PerspectivesIndependantes_B_fr.md](./FR/EvaluationTechnique_Rapport_PerspectivesIndependantes_B_fr.md) (Report B — FR)
+  - [ChainwebPactSPV_EvaluationStrategiqueEtRecommandations_fr.md](./FR/ChainwebPactSPV_EvaluationStrategiqueEtRecommandations_fr.md) (Consolidated — FR)
 
 - Portuguese (pt)
-  - [ChainwebPactSPV_AvaliacaoEstrategicaRecomendacoes_pt.md](./ChainwebPactSPV_AvaliacaoEstrategicaRecomendacoes_pt.md) (Consolidated — PT)
-  - [AvaliacaoTecnica_Produto_A_pt.md](./AvaliacaoTecnica_Produto_A_pt.md) (Report A — PT)
-  - [AvaliacaoTecnica_Relatorio_PerspectivasIndependentes_B_pt.md](./AvaliacaoTecnica_Relatorio_PerspectivasIndependentes_B_pt.md) (Report B — PT)
+  - [ChainwebPactSPV_AvaliacaoEstrategicaRecomendacoes_pt.md](./PT/ChainwebPactSPV_AvaliacaoEstrategicaRecomendacoes_pt.md) (Consolidated — PT)
+  - [AvaliacaoTecnica_Produto_A_pt.md](./PT/AvaliacaoTecnica_Produto_A_pt.md) (Report A — PT)
+  - [AvaliacaoTecnica_Relatorio_PerspectivasIndependentes_B_pt.md](./PT/AvaliacaoTecnica_Relatorio_PerspectivasIndependentes_B_pt.md) (Report B — PT)
 
 — Tip: search this folder for `_ko`, `_zh_sc`, `_zh_tc`, `_jp`, `_es`, `_de`, `_fr`, `_pt` to locate other localized files.
 
