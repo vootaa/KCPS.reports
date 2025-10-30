@@ -3,6 +3,9 @@
 ## Purpose  
 This folder contains independent technical scans (Report A, Report B) and a consolidated strategic assessment for Chainweb + Pact (Kadena PoW Blockchain). The focus is on reutilizing mature technical assets (e.g., SPV proofs, Pact contracts) for new blockchain applications and repositioning the platform toward "Verification & Cross-Chain" services (e.g., SPV-as-a-Service, enterprise Pact ecosystems). Use the consolidated report first, then consult A & B and language variants for detail.
 
+## Extracted Executive Summary (from consolidated report)
+Chainweb combines parallel multi-chain throughput, native SPV proof mechanisms and Pact smart contracts to enable verifiable event anchoring, auditable settlement and light-client verification. Recommended strategic pivot: focus on "Verification & Cross‑Chain" services (SPV-as-a-Service, enterprise Pact ecosystems) rather than generic L1 competition. Technical MVP pattern: "Edge Gateway + Batch SPV API + Pact settlement" with priorities on SPV proof precomputation, caching, and I/O (RocksDB) tuning. Key risks to mitigate: SPV complexity, Pact execution hotspots, I/O scaling and dependency drift. A 3‑month MVP is feasible; scale via caching, precompute, and partitioned multi‑chain routing.
+
 ## Canonical (English)
 - Report A — Technical assessment + product implementation recommendations  
   - [TechnicalAssessmentProductPositioningImplementationRecommendationsReport_A_en.md](./EN/TechnicalAssessmentProductPositioningImplementationRecommendationsReport_A_en.md) (EN)
@@ -10,13 +13,18 @@ This folder contains independent technical scans (Report A, Report B) and a cons
   - [TechnicalAssessmentProductPositioningImplementationRecommendationsReport_B_en.md](./EN/TechnicalAssessmentProductPositioningImplementationRecommendationsReport_B_en.md) (EN)
 - Consolidated — Comprehensive strategy & implementation recommendations  
   - [ChainwebPactSPVComprehensiveStrategyAssessmentandImplementationRecommendationsReport_en.md](./EN/ChainwebPactSPVComprehensiveStrategyAssessmentandImplementationRecommendationsReport_en.md) (EN)
+- Chainweb + Pact + SPV Landing Scenario Analysis and System Design
+  - [ChainwebPactSPVLandingScenarioAnalysisandSystemDesignReport_en.md](./EN/ChainwebPactSPVLandingScenarioAnalysisandSystemDesignReport_en.md) (EN)
 
 Language variants — examples (filenames show language suffix or native title)
 
 - Chinese (zh_sc / zh_tc)
+  - [ChainwebPactSPV落地场景分析报告_zh_sc.md](./ZH/ChainwebPactSPV落地场景分析报告_zh_sc.md)
   - [ChainwebPactSPV综合战略评估与落地建议报告_zh_sc.md](./ZH/ChainwebPactSPV综合战略评估与落地建议报告_zh_sc.md) (Consolidated — ZH-SC)
   - [技术评估与产品落地建议独立报告_A_zh_sc.md](./ZH/技术评估与产品落地建议独立报告_A_zh_sc.md) (Report A — ZH-SC)
   - [技术评估与产品落地建议独立报告_B_zh_sc.md](./ZH/技术评估与产品落地建议独立报告_B_zh_sc.md) (Report B — ZH-SC)
+
+  - [ChainwebPactSPV落地場景分析報告_zh_tc.md](./ZH/ChainwebPactSPV落地場景分析報告_zh_tc.md)
   - [ChainwebPactSPV綜合戰略評估與落地建議報告_zh_tc.md](./ZH/ChainwebPactSPV綜合戰略評估與落地建議報告_zh_tc.md) (Consolidated — ZH-TC)
   - [技術評估與產品落地建議獨立報告_A_zh_tc.md](./ZH/技術評估與產品落地建議獨立報告_A_zh_tc.md) (Report A — ZH-TC)
   - [技術評估與產品落地建議獨立報告_B_zh_tc.md](./ZH/技術評估與產品落地建議獨立報告_B_zh_tc.md) (Report B — ZH-TC)
