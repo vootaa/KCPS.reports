@@ -17,7 +17,7 @@ Chainweb 提供多链并行、高可验证性的区块链基础设施；原生 S
 
 这些模块直接支持“提交摘要 → 批量入链 → 生成 SPV 证明 → 外部验证”的全链路可信流程。
 
-### Pact版本差异与兼容性（补充）
+### Pact版本差异与兼容性
 - Chainweb支持Pact4/5切换（见[`chainweb-node-2.31.1/src/Chainweb/Version.hs`](chainweb-node-2.31.1/src/Chainweb/Version.hs )的`PactVersion`数据类型）。
 - Pact5在`pact-5-5.4/src/Pact/Core/`中优化了Gas计算和SPV验证（`verify-spv`函数在[`pact-5-5.4/docs/builtins/SPV/verify-spv.md`](pact-5-5.4/docs/builtins/SPV/verify-spv.md )），适合高吞吐场景，但需确保合约在部署时指定版本（[`chainweb-node-2.31.1/chainweb.cabal`](chainweb-node-2.31.1/chainweb.cabal )中`Chainweb.Pact5.SPV`模块）。
 - 迁移建议：对于新场景，优先Pact5以利用其并发执行优化（见[`chainweb-node-2.31.1/src/Chainweb/Pact/PactService.hs`](chainweb-node-2.31.1/src/Chainweb/Pact/PactService.hs )的Pact5分支）。
