@@ -3,8 +3,12 @@
 ## Purpose  
 This folder contains independent technical scans (Report A, Report B) and a consolidated strategic assessment for Chainweb + Pact (Kadena PoW Blockchain). The focus is on reutilizing mature technical assets (e.g., SPV proofs, Pact contracts) for new blockchain applications and repositioning the platform toward "Verification & Cross-Chain" services (e.g., SPV-as-a-Service, enterprise Pact ecosystems). Use the consolidated report first, then consult A & B and language variants for detail.
 
-## Extracted Executive Summary (from consolidated report)
-Chainweb combines parallel multi-chain throughput, native SPV proof mechanisms and Pact smart contracts to enable verifiable event anchoring, auditable settlement and light-client verification. Recommended strategic pivot: focus on "Verification & Cross‑Chain" services (SPV-as-a-Service, enterprise Pact ecosystems) rather than generic L1 competition. Technical MVP pattern: "Edge Gateway + Batch SPV API + Pact settlement" with priorities on SPV proof precomputation, caching, and I/O (RocksDB) tuning. Key risks to mitigate: SPV complexity, Pact execution hotspots, I/O scaling and dependency drift. A 3‑month MVP is feasible; scale via caching, precompute, and partitioned multi‑chain routing.
+## Chainweb + Pact + SPV - Applicable Scenarios and Value Propositions (Report: Landing Scenario Analysis and System Design 2025-10-30)
+- IoT / DePIN: Massive device submissions of events (status, metering, event evidence), on-chain stubs and SPV proofs for third-party audits, contract-based settlements. Value: Reduce trust costs, verifiable flow.
+- AI Verifiable Computing and Data Markets: Record task metadata/result summaries and proofs, and automatically settle through Pact contracts. Value: Support auditable pricing, incentives, and responsibility attribution.
+- Commercial Cross-Chain Verification Services (SPV-as-a-Service): Provide on-demand proof generation and verification APIs for light clients or external chain systems. Value: Reduce reliance on full nodes, clear commercialization monetization path.
+- Gaming / GameFi: On-chain asset registration, tournament settlements, high-concurrency anchoring and verifiable arbitration for cross-server asset migration.
+- Enterprise Audit Services: Immutable audit evidence, automated compliance reports, and supply chain traceability.
 
 ## Canonical (English)
 - Report A — Technical assessment + product implementation recommendations  
@@ -19,12 +23,12 @@ Chainweb combines parallel multi-chain throughput, native SPV proof mechanisms a
 Language variants — examples (filenames show language suffix or native title)
 
 - Chinese (zh_sc / zh_tc)
-  - [ChainwebPactSPV落地场景分析报告_zh_sc.md](./ZH/ChainwebPactSPV落地场景分析报告_zh_sc.md)
+  - [ChainwebPactSPV落地场景分析报告_zh_sc.md](./ZH/ChainwebPactSPV落地场景分析报告_zh_sc.md) (Landing Scenario — ZH-SC)
   - [ChainwebPactSPV综合战略评估与落地建议报告_zh_sc.md](./ZH/ChainwebPactSPV综合战略评估与落地建议报告_zh_sc.md) (Consolidated — ZH-SC)
   - [技术评估与产品落地建议独立报告_A_zh_sc.md](./ZH/技术评估与产品落地建议独立报告_A_zh_sc.md) (Report A — ZH-SC)
   - [技术评估与产品落地建议独立报告_B_zh_sc.md](./ZH/技术评估与产品落地建议独立报告_B_zh_sc.md) (Report B — ZH-SC)
 
-  - [ChainwebPactSPV落地場景分析報告_zh_tc.md](./ZH/ChainwebPactSPV落地場景分析報告_zh_tc.md)
+  - [ChainwebPactSPV落地場景分析報告_zh_tc.md](./ZH/ChainwebPactSPV落地場景分析報告_zh_tc.md) (Landing Scenario — ZH-TC)
   - [ChainwebPactSPV綜合戰略評估與落地建議報告_zh_tc.md](./ZH/ChainwebPactSPV綜合戰略評估與落地建議報告_zh_tc.md) (Consolidated — ZH-TC)
   - [技術評估與產品落地建議獨立報告_A_zh_tc.md](./ZH/技術評估與產品落地建議獨立報告_A_zh_tc.md) (Report A — ZH-TC)
   - [技術評估與產品落地建議獨立報告_B_zh_tc.md](./ZH/技術評估與產品落地建議獨立報告_B_zh_tc.md) (Report B — ZH-TC)
@@ -33,31 +37,37 @@ Language variants — examples (filenames show language suffix or native title)
   - [기술 평가 및 제품 실행 권고 보고서_A_ko.md](./KO/기술%20평가%20및%20제품%20실행%20권고%20보고서_A_ko.md) (Report A — KO)
   - [기술 평가 보고서_B_ko.md](./KO/기술%20평가%20및%20제품%20실행%20권고%20보고서_B_ko.md) (Report B — KO)
   - [ChainwebPactSPV_종합전략평가_권고_ko.md](./KO/ChainwebPactSPV_종합전략평가_권고_ko.md) (Consolidated — KO)
+  - [ChainwebPactSPV실전적용시나리오분석및시스템설계_ko.md](./KO/ChainwebPactSPV실전적용시나리오분석및시스템설계_ko.md) (Landing Scenario — KO)
 
 - Japanese (jp)
   - [ChainwebPactSPV総合戦略評価と実装提言レポート_jp.md](./JP/ChainwebPactSPV総合戦略評価と実装提言レポート_jp.md) (Consolidated — JP)
   - [技術評価とプロダクト実装提言レポート_A_jp.md](./JP/技術評価とプロダクト実装提言レポート_A_jp.md) (Report A — JP)
   - [技術評価とプロダクト実装提言レポート_B_jp.md](./JP/技術評価とプロダクト実装提言レポート_B_jp.md) (Report B — JP)
+  - [ChainwebPactSPV導入シナリオ分析とシステム設計_JP.md](./JP/ChainwebPactSPV導入シナリオ分析とシステム設計_JP.md) (Landing Scenario — JP)
 
 - Spanish (es)
   - [TecnicaEvaluacion_Producto_A_es.md](./ES/TecnicaEvaluacion_Producto_A_es.md) (Report A — ES)
   - [TecnicaEvaluacion_Reporte_PerspectivasIndependientes_B_es.md](./ES/TecnicaEvaluacion_Reporte_PerspectivasIndependientes_B_es.md) (Report B — ES)
   - [ChainwebPactSPV_EstrategiaEvaluacionYRecomendaciones_es.md](./ES/ChainwebPactSPV_EstrategiaEvaluacionYRecomendaciones_es.md) (Consolidated — ES)
+  - [ChainwebPactSPV_AnalisisDeEscenariosDeAterrizajeYDiseñoDeSistema_es.md](./ES/ChainwebPactSPV_AnalisisDeEscenariosDeAterrizajeYDiseñoDeSistema_es.md) (Landing Scenario — ES)
 
 - German (de)
   - [TechnischeBewertung_ProduktUmsetzung_A_de.md](./DE/TechnischeBewertung_ProduktUmsetzung_A_de.md) (Report A — DE)
   - [TechnischeBewertung_Rapport_UnabhaengigeEinschaetzung_B_de.md](./DE/TechnischeBewertung_Rapport_UnabhaengigeEinschaetzung_B_de.md) (Report B — DE)
   - [ChainwebPactSPV_StrategischeBewertungUndUmsetzungsempfehlungen_de.md](./DE/ChainwebPactSPV_StrategischeBewertungUndUmsetzungsempfehlungen_de.md) (Consolidated — DE)
+  - [ChainwebPactSPV_LandungsszenarioAnalyseUndSystemdesign_de.md](./DE/ChainwebPactSPV_LandungsszenarioAnalyseUndSystemdesign_de.md) (Landing Scenario — DE)
 
 - French (fr)
   - [EvaluationTechnique_Produit_A_fr.md](./FR/EvaluationTechnique_Produit_A_fr.md) (Report A — FR)
   - [EvaluationTechnique_Rapport_PerspectivesIndependantes_B_fr.md](./FR/EvaluationTechnique_Rapport_PerspectivesIndependantes_B_fr.md) (Report B — FR)
   - [ChainwebPactSPV_EvaluationStrategiqueEtRecommandations_fr.md](./FR/ChainwebPactSPV_EvaluationStrategiqueEtRecommandations_fr.md) (Consolidated — FR)
+  - [ChainwebPactSPV_Analysedesscénariosd'atterrissageetconceptionsystème_fr.md](./FR/ChainwebPactSPV_Analysedesscénariosd'atterrissageetconceptionsystème_fr.md) (Landing Scenario — FR)
 
 - Portuguese (pt)
   - [ChainwebPactSPV_AvaliacaoEstrategicaRecomendacoes_pt.md](./PT/ChainwebPactSPV_AvaliacaoEstrategicaRecomendacoes_pt.md) (Consolidated — PT)
   - [AvaliacaoTecnica_Produto_A_pt.md](./PT/AvaliacaoTecnica_Produto_A_pt.md) (Report A — PT)
   - [AvaliacaoTecnica_Relatorio_PerspectivasIndependentes_B_pt.md](./PT/AvaliacaoTecnica_Relatorio_PerspectivasIndependentes_B_pt.md) (Report B — PT)
+  - [ChainwebPactSPV_AnálisedeCenárioseDesigndeSistema_pt.md](./PT/ChainwebPactSPV_AnálisedeCenárioseDesigndeSistema_pt.md) (Landing Scenario — PT)
 
 — Tip: search this folder for `_ko`, `_zh_sc`, `_zh_tc`, `_jp`, `_es`, `_de`, `_fr`, `_pt` to locate other localized files.
 
