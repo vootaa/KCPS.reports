@@ -413,8 +413,6 @@ else:
 - 在[`chainweb-node-2.31.1/src/Chainweb/Version.hs`](chainweb-node-2.31.1/src/Chainweb/Version.hs )中版本化哈希算法。
 - 安全增强：引入防重放nonce（在`Chainweb.RestAPI.Utils`中实现），并在Pact合约中添加签名验证（见[`pact-4.13.1/src/Pact/Coverage/Report.hs`](pact-4.13.1/src/Pact/Coverage/Report.hs )的审计日志）。
 
-
-
 ## 7 性能与运维考量
 - 瓶颈点：
   - RocksDB 随并发写入与 compaction 的 I/O 延时（调参建议：增加写缓冲、sst 压缩策略）
